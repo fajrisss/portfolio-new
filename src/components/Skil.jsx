@@ -12,7 +12,7 @@ import { Autoplay } from "swiper";
 
 const Skil = () => {
   return (
-    <div className="h-max py-16 border-y border-y-slate-800 dark:border-y-slate-300  w-10/12 m-auto">
+    <div className="h-max py-16 border-y dark:border-y-slate-800 border-y-slate-300  w-10/12 m-auto">
       <h1 className="text-center mb-7 text-3xl font-bold underline hover:italic">
         MY SKILLS
       </h1>
@@ -28,26 +28,26 @@ const Skil = () => {
         modules={[Autoplay]}
         className="mySwiper "
       >
-          <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center bg-slate-600 dark:bg-slate-300 text-slate-200 dark:text-slate-800 ">
-            <BsGit />
-            <p className="text-lg">Git</p>
-          </SwiperSlide>
-          <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center bg-slate-600 dark:bg-slate-300 text-slate-200 dark:text-slate-800 ">
-            <FaReact />
-            <p className="text-lg">ReactJs</p>
-          </SwiperSlide>
-          <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center bg-slate-600 dark:bg-slate-300 text-slate-200 dark:text-slate-800 ">
-            <FaBootstrap />
-            <p className="text-lg">Bootstrap</p>
-          </SwiperSlide>
-          <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center bg-slate-600 dark:bg-slate-300 text-slate-200 dark:text-slate-800 ">
-            <SiTailwindcss />
-            <p className="text-lg">Tailwind</p>
-          </SwiperSlide>
-          <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center bg-slate-600 dark:bg-slate-300 text-slate-200 dark:text-slate-800 ">
-            <SiMui />
-            <p className="text-lg">Material UI</p>
-          </SwiperSlide>
+        <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
+          <BsGit />
+          <p className="text-lg">Git</p>
+        </SwiperSlide>
+        <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
+          <FaReact />
+          <p className="text-lg">ReactJs</p>
+        </SwiperSlide>
+        <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
+          <FaBootstrap />
+          <p className="text-lg">Bootstrap</p>
+        </SwiperSlide>
+        <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
+          <SiTailwindcss />
+          <p className="text-lg">Tailwind</p>
+        </SwiperSlide>
+        <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
+          <SiMui />
+          <p className="text-lg">Material UI</p>
+        </SwiperSlide>
       </Swiper>
     </div>
   );

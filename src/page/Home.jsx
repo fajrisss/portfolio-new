@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
-import Footer from '../components/Footer';
-import Hero from '../components/Hero';
-import Lastest from '../components/Lastest';
-import Skil from '../components/Skil';
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Lastest from "../components/Lastest";
+import Skil from "../components/Skil";
 
 const Home = () => {
   return (
-    <div className=''>
+    <div className="">
       <Hero />
       <Skil />
       <Lastest />
