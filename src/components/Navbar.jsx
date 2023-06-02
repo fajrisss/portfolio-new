@@ -53,14 +53,14 @@ const Navbar = () => {
                   setToggle(!toggle);
                 }}
               >
-                <FaSun className="" />
+                <FaSun className="text-slate-400" />
                 <div
                   className={
                     "dark:bg-slate-900 bg-slate-300 absolute md:w-6 md:h-6 h-5 w-5 rounded-full shadow-md transform duration-300 ease-in-out" +
                     (toggle ? null : toggleClass)
                   }
                 ></div>
-                <FaMoon className=" text-slate-400" />
+                <FaMoon className=" " />
               </div>
             </label>
           </div>
