@@ -26,6 +26,9 @@ export default {
           '100%': { transform: 'rotate(0.0deg)' },
         },
       },
+      boxShadow: {
+        'top-shadow': '0 -10px 20px -5px rgba(0, 0, 0, 0.3)',
+      }
     },
   },
   plugins: [],
