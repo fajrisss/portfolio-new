@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="bg-red-500 bottom-10 right-5 fixed w-max rounded-full block sm:hidden">
+      <nav className="bg-red-500 bottom-10 right-5 fixed w-max rounded-full block md:hidden">
         <div className="relative ">
           <button className="p-2" onClick={() => setNavbar(!navbar)}>
             {navbar ? (

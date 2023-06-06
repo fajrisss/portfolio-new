@@ -26,7 +26,7 @@ const Skil = () => {
         }}
         loop={true}
         modules={[Autoplay]}
-        className="mySwiper "
+        className="mySwiper md:hidden"
       >
         <SwiperSlide className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
           <BsGit />
@@ -49,6 +49,33 @@ const Skil = () => {
           <p className="text-lg">Material UI</p>
         </SwiperSlide>
       </Swiper>
+
+      <div className="hidden md:block">
+        <div className="flex flex-wrap items-center justify-evenly gap-10">
+
+        
+      <div className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
+          <BsGit />
+          <p className="text-lg">Git</p>
+        </div>
+        <div className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
+          <FaReact />
+          <p className="text-lg">ReactJs</p>
+        </div>
+        <div className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
+          <FaBootstrap />
+          <p className="text-lg">Bootstrap</p>
+        </div>
+        <div className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
+          <SiTailwindcss />
+          <p className="text-lg">Tailwind</p>
+        </div>
+        <div className="text-[2.5rem] rounded-xl flex items-center flex-col gap-2 border shadow-lg shadow-slate-900 dark:shadow-slate-500 w-32 h-32 justify-center dark:bg-slate-600 bg-slate-300 dark:text-slate-200 text-slate-800 ">
+          <SiMui />
+          <p className="text-lg">Material UI</p>
+        </div>
+        </div>
+      </div>
     </div>
   );
 };

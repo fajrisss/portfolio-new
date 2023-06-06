@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { project } from "../assets/projects";
+import { Link } from "react-router-dom";
 
 const topTwoProjects = project.slice(0, 3);
 
@@ -9,10 +10,10 @@ const Lastest = () => {
   return (
     <div className="flex flex-col gap-3 justify-center items-center py-40">
       <h1 className="text-3xl mb-14 font-bold">My Lastest Project</h1>
-      <div className="mx-[18px] flex flex-col gap-9">
+      <div className="mx-[18px] flex flex-col md:flex-row  md:flex-wrap gap-9 md:justify-center">
         {topTwoProjects.map((project) => (
           <div
-            className=" border rounded-lg shadow-lg p-4 shadow-slate-950 dark:shadow-slate-300 flex flex-col justify-center items-center gap-5"
+            className=" border rounded-lg shadow-lg p-4 shadow-slate-950 dark:shadow-slate-300 flex flex-col justify-center items-center gap-5 md:w-[325px]"
             key={project.id}
           >
             <img
@@ -49,12 +50,12 @@ const Lastest = () => {
       </div>
       <p className="mt-7">
         Explore all of my projects by clicking{" "}
-        <a
-          href="/portfolio"
-          className="underline italic cursor-pointer text-lg"
+        <Link
+          to="/portfolio"
+          className="underline hover:italic cursor-pointer text-lg"
         >
           here
-        </a>
+        </Link>
       </p>
     </div>
   );

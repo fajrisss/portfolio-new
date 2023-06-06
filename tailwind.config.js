@@ -6,7 +6,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        macondo: ['Dancing-Script', 'cursive']
       },
       animation: {
         'waving-hand': 'wave 2s linear infinite',

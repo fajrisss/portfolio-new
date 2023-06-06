@@ -23,8 +23,19 @@
   animation: running-text-animation 10s linear infinite;
 }
 
+@media screen and (min-width: 768px) {
+  .running-text {
+  white-space: nowrap;
+  animation: running-width 15s linear infinite;
+  }
+}
+
 @keyframes running-text-animation {
   0% { transform: translateX(100%); }
   100% { transform: translateX(-245%); }
-  
+}
+
+@keyframes running-width {
+  0% {transform: translateX(100%);}
+  100% {transform: translateX(-170%);}
 }
