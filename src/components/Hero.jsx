@@ -26,8 +26,8 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex items-center justify-center relative">
-          <div className="w-60 h-60 bg-slate-300 dark:bg-slate-800 flex justify-center items-center rounded-full hover:w-64 hover:h-64 group dark:shadow-xl shadow-lg shadow-slate-950 ">
+        <div className="flex items-center justify-center relative z-0">
+          <div className="w-60 h-60 bg-slate-300 dark:bg-slate-800 flex justify-center items-center rounded-full hover:w-64 hover:h-64 group dark:shadow-xl shadow-lg shadow-slate-950">
             <img
               src={ME}
               alt=""
@@ -61,7 +61,6 @@ const Hero = () => {
             </a>
           </div>
         </div>
-
       </div>
       <div className="py-7">
         <div className=" flex mt-7 text-center justify-center mb-7">
